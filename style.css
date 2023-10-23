@@ -1,0 +1,5 @@
+body{
+display: grid;
+grid-template-rows: 25% 50% 25%;
+grid-template-columns: 10% 80% 10%;
+}
