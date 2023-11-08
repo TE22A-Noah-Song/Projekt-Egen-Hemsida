@@ -65,3 +65,14 @@ border-radius: 2px;
 border: solid black;
 background-color: darkorange;
 }
+
+footer{
+margin-top: 30%;
+margin-bottom: 15%;
+grid-column: 1/4;
+grid-row:2/3;
+border-radius: 2px;
+border:solid black;
+background-color: black;
+color: white;
+}
