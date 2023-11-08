@@ -2,7 +2,7 @@ body{
 display: grid;
 grid-template-rows: 25% 50% 25%;
 grid-template-columns: 30% 40% 30%;
-font-family: 'Mountains of Christmas';
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header{
@@ -13,15 +13,17 @@ background-color: #fa434d;
 color: white;
 margin-left: 15%;
 margin-right:15%;
-border: 2px solid black;
+border-radius: 2px;
+border: solid black;
 margin-bottom: 50%;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: 'Kaushan Script';
 }
 
 aside{
 grid-row:1/4;
 grid-column: 1/2;
-border: 2px solid black;
+border-radius: 2px;
+border: solid black;
 background-color:lightskyblue;
 margin-right: 50%;
 margin-bottom: 200%;
@@ -43,18 +45,23 @@ max-width: 70%;
 max-height: 70%;
 margin-left: 14.7%;
 margin-top: 25%;
-border: 2px solid black;
+border-radius: 2px;
+border: solid black;
 }
 
 .fakta{
-border-top: 2px solid black;
+border-radius: 2px;
+border-top: solid black;
+border-bottom: solid black;
 background-color:chartreuse;
+margin-bottom: 52%;
 
 }
 
 .instruktion{
 grid-column:3/4;
 grid-row: 1/2;
-border: 2px solid black;
+border-radius: 2px;
+border: solid black;
 background-color: darkorange;
 }
