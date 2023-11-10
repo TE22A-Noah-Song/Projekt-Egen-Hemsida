@@ -3,6 +3,10 @@ display: grid;
 grid-template-rows: 25% 50% 25%;
 grid-template-columns: 30% 40% 30%;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-image: url(bilder/stir\ fry\ fire.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 header{
@@ -26,8 +30,8 @@ border-radius: 2px;
 border: solid black;
 background-color:lightskyblue;
 margin-right: 50%;
-margin-bottom: 200%;
-max-height: 45.27%;
+margin-bottom: 10%;
+max-height: 21%;
 }
 
 li{
@@ -55,6 +59,7 @@ border-top: solid black;
 border-bottom: solid black;
 background-color:chartreuse;
 margin-bottom: 52%;
+margin-top: 20%;
 
 }
 
@@ -63,11 +68,12 @@ grid-column:3/4;
 grid-row: 1/2;
 border-radius: 2px;
 border: solid black;
+margin-bottom: 65%;
 background-color: darkorange;
 }
 
 footer{
-margin-top: 30%;
+margin-top: 160%;
 margin-bottom: 15%;
 grid-column: 1/4;
 grid-row:2/3;
@@ -76,3 +82,5 @@ border:solid black;
 background-color: black;
 color: white;
 }
+
+
